@@ -33,13 +33,6 @@ The ``data`` folder contains all the images that will be used during training an
 - 2_test_model.ipynb
 
 ## Results
-<p float="left">
-    <img src="./test_results/9563_104.png" alt="Result" width="500"/>
-    <img src="./test_results/9549_030.png" alt="Result" width="500"/>
-</p>
-<p>
-    <img src="./test_results/9563_080.png" alt="Result" width="500"/>
-    <img src="./test_results/9563_061.png" alt="Result" width="500"/>
-</p>
-
+![Result](./test_results/9549_030.png)
+![Result](./test_results/9563_104.png)
 ![Result](./test_results/9550_050.png)
