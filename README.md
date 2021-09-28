@@ -1,4 +1,4 @@
-# Faster R-CNN for Open Images Dataset by Keras
+# Faster R-CNN for Table Detection
 
 This was the setup I used for my Honors Thesis at the University of Massachusetts, *An Analysis of F-RCNN vs YOLO in Table Detection*.
 
