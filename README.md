@@ -9,8 +9,6 @@ The keras-version of Faster R-CNN was originally pieced together by [RockyXu66](
 
 `Tensorflow v.1.15` ``Keras v.2.3.1`` ``h5py v.2.10.0`` ``Python 3.7.0``
 
-This project can either be ran on the cloud using *Google Colab* or locally using *Anaconda*.
-
 ### Cloud
 
 **`Google Colab`** comes bundled with [**`Jupyter Notebook Support`**](https://colab.research.google.com/) & most Python distributions by default. This project has been setup to install the appropiate libraries, so no changes are needed.
