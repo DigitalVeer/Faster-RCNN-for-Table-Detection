@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "frcnn-table-detection"
+version = "0.1.0"
+description = "Faster R-CNN for table detection - shared library extracted from the honors-thesis notebooks"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Veer Singh" }]
+dependencies = [
+    "numpy>=1.23,<2.0",
+    "opencv-python-headless>=4.5",
+    "pandas>=2.0",
+    "scikit-learn>=1.1",
+    "matplotlib>=3.5",
+]
+
+[project.optional-dependencies]
+tf = ["tensorflow>=2.15,<2.17", "h5py>=3.6"]
+dev = ["pytest>=7.0"]
+
+[tool.setuptools]
+packages = ["frcnn"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

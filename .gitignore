@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model weights / checkpoints (not shipped with the repo)
+checkpoints/
+model_data/
+*.hdf5
+*.h5
+
+# Generated annotation files (produced by 0_preprocess_data.ipynb)
+train_annotations.txt
+test_annotations.txt
